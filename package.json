@@ -1,0 +1,48 @@
+{
+    "name": "twitter-toplinks-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "NODE_ENV=production node index.js",
+        "dev": "nodemon --ignore 'pages/' --ignore 'next-ui/' index.js",
+        "build": "NODE_ENV=production next build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Vithal Reddy",
+    "license": "MIT",
+    "dependencies": {
+        "@material-ui/core": "^4.8.1",
+        "axios": "^0.19.0",
+        "clsx": "^1.0.4",
+        "connect-mongodb-session": "^2.2.0",
+        "fastify": "^2.11.0",
+        "fastify-cookie": "^3.4.0",
+        "fastify-nextjs": "^4.1.1",
+        "fastify-sensible": "^2.1.1",
+        "fastify-session": "^3.2.0",
+        "fastify-url-data": "^2.4.0",
+        "login-with-twitter": "^1.2.2",
+        "material-ui-chip-input": "^1.1.0",
+        "mongoose": "^5.8.3",
+        "next": "^9.1.6",
+        "pino": "^5.15.0",
+        "pino-pretty": "^3.5.0",
+        "prettier": "^1.19.1",
+        "prop-types": "^15.7.2",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "twit": "^2.2.11"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.19.1",
+        "eslint-config-prettier": "^6.7.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "nodemon": "^2.0.2"
+    },
+    "engines": {
+        "node": "13.x"
+    }
+}

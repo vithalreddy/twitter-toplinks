@@ -2,6 +2,8 @@
 
     Simple Nodejs App to Analyze your last 7 days tweets.
 
+![Imgur](https://i.imgur.com/9LcAMSW.png)
+
 ## How it Works
 
     When user signup using twitter OAuth,
